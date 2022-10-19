@@ -11,6 +11,9 @@ class Navbar extends Component {
                         <li className='navbar-item'>
                             <Link to='/worlds' className='nav-link'>Worlds</Link>
                         </li>
+                        <li className='navbar-item'>
+                            <Link to='/stories' className='nav-link'>Stories</Link>
+                        </li>
                     </ul>
                 </div>
             </nav>

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Story extends Component {
+class EditStory extends Component {
     render() {
         return (
             <div>
-                <p>You are viewing a story.</p>
+                <p>You are on the Edit Story component</p>
             </div>
         );
     }
 }
 
-export default Story;
+export default EditStory;
