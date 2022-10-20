@@ -14,7 +14,11 @@ class Navbar extends Component {
                         <li className='navbar-item'>
                             <Link to='/stories' className='nav-link'>Stories</Link>
                         </li>
+                        <li className='navbar-item'>
+                            <Link to='/users/create' className='nav-link'>Register</Link>
+                        </li>
                     </ul>
+
                 </div>
             </nav>
         );
