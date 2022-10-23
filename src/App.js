@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 //pages & components
-import Home from './pages/home'
-import Worlds from './pages/worlds/worlds'
-import CreateWorld from './pages/worlds/create-world'
+import Home from './pages/Home'
+import Worlds from './pages/worlds/Worlds'
+import CreateWorld from './pages/worlds/CreateWorld'
 import Navbar from './components/navbar'
 
 function App() {
