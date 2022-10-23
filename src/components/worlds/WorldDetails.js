@@ -2,11 +2,11 @@ const WorldDetails = ({ world }) => {
     return (
         <div className="world-details">
             <h4>{world.world_name}</h4>
-            <p><strong>Players: </strong>5</p>
-            <p><strong>Next Session: </strong>Tues Nov 11</p>
-            <div className="container">
-                <button>View</button>
+            <p>5 Active Stories</p>
+            <p><strong>Last Edited: </strong>{world.updatedAt}</p>
+            <div>
                 <button>Delete</button>
+                <button>View</button>
             </div>
         </div>
     )

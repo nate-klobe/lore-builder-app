@@ -31,29 +31,40 @@ header a {
   padding: 20px;
   margin: 0 auto;
 }
-
-/* homepage */
 .worlds {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-flow: row;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 20%;
   gap: 10px;
+  justify-content: start;
 }
 .world-details {
   background: #fff;
   border-radius: 4px;
   margin: 20px auto;
   padding: 20px;
-  position: relative;
-  width: 300px;
-  height: 150px;
+  width: 100%;
+  height: 35px;
   box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
 }
+.world-details button {
+  display: inline;
+  margin-left: 15px;
+  float: right;
+}
+.world-details div{
+  display: inline;
+}
 .world-details h4 {
+  display: inline;
   margin: 0 0 10px 0;
   font-size: 1.2em;
   color: var(--primary);
 }
 .world-details p {
+  display: inline;
+  padding-left: 20px;
   margin: 0;
   font-size: 0.9em;
   color: #555;
@@ -67,4 +78,35 @@ header a {
   padding: 6px;
   border-radius: 50%;
   color: #333;
+}
+
+/* new world form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
 }

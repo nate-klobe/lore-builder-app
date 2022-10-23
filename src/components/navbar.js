@@ -5,9 +5,8 @@ const Navbar = () => {
         <header>
             <div className="container">
                 <Link to="/"><h1>Lore Builder</h1></Link>
-            </div>
-            <div className="container">
                 <Link to="/worlds">Worlds</Link>
+                <Link to="/stories">Stories</Link>
             </div>
         </header>
         
